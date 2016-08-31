@@ -1,0 +1,40 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "expect": "^1.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-svgmin": "^1.2.2",
+    "gulp-svgstore": "^6.0.0",
+    "jquery": "^2.2.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "modernizr": "^3.3.1",
+    "script-loader": "^0.6.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {}
+}

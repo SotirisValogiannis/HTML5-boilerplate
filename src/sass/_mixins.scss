@@ -1,0 +1,63 @@
+@mixin el( $element ) {
+  &__#{ $element } {
+    @content;
+  }
+}
+
+@mixin mod( $modifier ) {
+  &--#{ $modifier } {
+    @content;
+  }
+}
+
+@mixin clearfix {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+
+	&:after {
+	    clear: both;
+	}
+}
+
+@mixin seperator( $position, $content, $marginLeft, $marginRight, $color: inherit, $lastChild: false ) {
+  @if $lastChild == true {
+      &:#{$position} {
+      content: $content;
+      margin-left: $marginLeft;
+      margin-right: $marginRight;
+      color: $color;
+    }
+  }
+  @else{
+    &:not(:last-child):#{$position} {
+      content: $content;
+      margin-left: $marginLeft;
+      margin-right: $marginRight;
+      color: $color;
+    }
+  }
+}
+
+@mixin hover-underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@mixin hover-darker-bg( $color, $percentage: 10%, $text-color: false ) {
+  &:hover {
+    background-color: darken($color, $percentage);
+
+    @if $text-color {
+      color: $text-color;
+    }
+  }
+}
+@mixin hover-darker-color( $color, $percentage: 10% ) {
+  &:hover {
+    color: darken($color, $percentage)
+  }
+}
