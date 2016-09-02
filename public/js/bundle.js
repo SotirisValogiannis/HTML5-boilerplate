@@ -70,7 +70,7 @@
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar plugins = __webpack_require__(6);\nvar slick = __webpack_require__(7);\n\nconsole.log('hello from main.js');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvanMvbWFpbi5qcz82OTFmIiwid2VicGFjazovLy8/ZDQxZCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgcGx1Z2lucyA9IHJlcXVpcmUoJ3BsdWdpbnMnKTtcbnZhciBzbGljayA9IHJlcXVpcmUoJ3NsaWNrLWNhcm91c2VsJyk7XG5cbmNvbnNvbGUubG9nKCdoZWxsbyBmcm9tIG1haW4uanMnKTtcblxuXG5cbi8qKiBXRUJQQUNLIEZPT1RFUiAqKlxuICoqIHNyYy9qcy9tYWluLmpzXG4gKiovIiwidW5kZWZpbmVkXG5cblxuLyoqIFdFQlBBQ0sgRk9PVEVSICoqXG4gKiogXG4gKiovIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FDQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=");
+	eval("'use strict';\n\nvar plugins = __webpack_require__(6);\nvar slick = __webpack_require__(7);\n\n//\n\nconsole.log('hello from main.js');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvanMvbWFpbi5qcz82OTFmIiwid2VicGFjazovLy8/ZDQxZCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgcGx1Z2lucyA9IHJlcXVpcmUoJ3BsdWdpbnMnKTtcbnZhciBzbGljayA9IHJlcXVpcmUoJ3NsaWNrLWNhcm91c2VsJyk7XG5cbi8vXG5cbmNvbnNvbGUubG9nKCdoZWxsbyBmcm9tIG1haW4uanMnKTtcblxuXG5cbi8qKiBXRUJQQUNLIEZPT1RFUiAqKlxuICoqIHNyYy9qcy9tYWluLmpzXG4gKiovIiwidW5kZWZpbmVkXG5cblxuLyoqIFdFQlBBQ0sgRk9PVEVSICoqXG4gKiogXG4gKiovIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FDQ0E7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9");
 
 /***/ },
 /* 5 */
