@@ -659,3 +659,58 @@ html {
 
 .slick-arrow.slick-hidden {
   display: none; }
+
+.linkedin-icon-med {
+  height: 200px;
+  width: 200px; }
+  .linkedin-icon-med {
+    background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -32px;
+    background-size: 212px 179px!important; }
+
+.linkedin-icon {
+  height: 201px;
+  width: 200px; }
+  .linkedin-icon {
+    background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -15px;
+    background-size: 212px 179px!important; }
+
+.logo {
+  height: 200px;
+  width: 200px; }
+  .logo {
+    background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -114px;
+    background-size: 212px 179px!important; }
+
+.search-icon {
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 14px; }
+  .search-icon {
+    background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -0px;
+    background-size: 212px 179px!important; }
+
+.partner {
+  background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -52px;
+    background-size: 212px 179px!important; }
+
+.partner {
+  background-image: url("../img/sprite.png");
+    background-position: -0px -40px;
+    background-size: 212px 219px!important;
+    background-position: -0px -0px;
+    background-size: 212px 219px!important; }

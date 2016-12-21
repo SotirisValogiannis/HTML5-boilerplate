@@ -61,3 +61,8 @@
     color: darken($color, $percentage)
   }
 }
+@mixin sprite-item( $filename ) {
+  & {
+    background-image: url('../../src/img/sprite/#{$filename}');
+  }
+}

@@ -23,3 +23,6 @@ export var plugins = (function() {
 
 
 // Place any jQuery/helper plugins in here.
+if(!!document.documentMode) {
+  document.querySelector('html').className += " is-IE";
+}
