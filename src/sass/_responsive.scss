@@ -1,0 +1,236 @@
+@media screen and (max-width:1280px) {
+  .header__nav {
+    margin-left: 0;
+  }
+  .filters {
+    flex-basis: 200px;
+    max-width: 250px;
+  }
+}
+@media screen and (max-width:1020px) {
+  .product {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .single-product__gallery {
+    padding-left: 0;
+  }
+  .single-product__options {
+    flex-basis: 42.2%;
+    max-width: 42.2%;
+    padding-right: 44px;
+  }
+}
+@media screen and (max-width:807px) {
+
+  $gutter: 20px;
+
+  .container {
+    & + & {
+      margin-top: $gutter;
+    }
+  }
+  .header__actions {
+    width: 150px;
+  }
+  .nav__item--mobile-visible,
+  .header__nav-icon {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: 109px;
+    width: 100%;
+    background: #fff;
+    margin-top: 0;
+    left: 0;
+    z-index: 2;
+    border-top: 1px solid $light-gray;
+    box-shadow: 0 14px 9px rgba(0,0,0,.12);
+
+    .nav__list {
+      display: block;
+    }
+    .nav__item {
+      min-height: 40px;
+      padding-bottom: 0;
+      border-bottom: 1px solid $light-gray;
+    }
+    .nav__item + .nav__item {
+      margin-left: 0;
+    }
+    .nav__link {
+      padding-left: 20px;
+      font-size: 18px;
+      line-height: 3;
+      display: block;
+    }
+    .dropdown {
+      display: block;
+      position: static;
+      transform: none;
+      box-shadow: none;
+
+      &:before {
+        display: none;
+      }
+    }
+    .dropdown__category {
+      display: none;
+    }
+    .dropdown__subcategory {
+      margin-bottom: 0;
+    }
+    .dropdown__item {
+      line-height: 2;
+    }
+    .dropdown__subcategory-link {
+      font-size: 16px;
+    }
+  }
+  .header__btn {
+    display: none;
+  }
+
+  .intro {
+    display: block;
+
+    & p {
+      position: static;
+      transform: none;
+      padding: 0 10px;
+    }
+  }
+  .intro__banner,
+  .intro__text {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  .intro__banner {
+    margin-bottom: $gutter;
+  }
+  .filters,
+  .products {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .filters {
+    margin-bottom: $gutter;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include el('section') {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  .single-product__gallery {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+  .single-product__options {
+    flex-basis: 55%;
+    max-width: 55%;
+  }
+}
+@media screen and (max-width:800px) {
+  .filters__section {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .table th,
+  .table td {
+    min-width: auto;
+    height: auto;
+    padding: 15px;
+  }
+  .tabs__tab-title {
+    height: 60px;
+    font-size: 20px;
+  }
+  .tabs__columns {
+    flex-wrap: wrap;
+  }
+  .tabs__column {
+    flex-basis: 100%;
+    max-width: 100%;
+    & + & {
+      margin-top: 20px;
+    }
+  }
+  .tabs__text {
+    max-width: 100%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width:545px) {
+  .products {
+    justify-content: center;
+  }
+  .product {
+    flex-basis: 100%;
+    max-width: 380px;
+  }
+  .newsletter {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .newsletter__btn {
+    width: 130px;
+  }
+  .newsletter__field {
+    width: calc(100% - 150px);
+  }
+  .single-product__flex {
+    flex-wrap: wrap;
+  }
+  .single-product__gallery,
+  .single-product__options {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+  .single-product__options {
+    margin-top: 44px;
+  }
+  .tabs__tab-title {
+    height: 60px;
+    font-size: 16px;
+  }
+  .tabs__column:nth-child(1), .tabs__tab-title:nth-child(1) {
+    padding-left: 15px;
+  }
+  .tabs__column:nth-child(1), .tabs__tab-title:nth-child(1) {
+    padding-right: 15px;
+  }
+  .footer__icons {
+    display: block;
+    text-align: center;
+  }
+  .footer__socials {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .footer__legal {
+    justify-content: space-between;
+    padding: 0 20px
+  }
+  .footer__legal-item+.footer__legal-item {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:410px) {
+  .filters__section {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .header,
+  .single-product__gallery, .single-product__options {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

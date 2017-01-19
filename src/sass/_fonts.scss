@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-size: 200;
+    src: url('../fonts/Brandon_thin.eot');
+    src: url('../fonts/Brandon_thin.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_thin.woff2') format('woff2'),
+         url('../fonts/Brandon_thin.woff') format('woff'),
+         url('../fonts/Brandon_thin.ttf') format('truetype'),
+         url('../fonts/Brandon_thin.svg#Brandon_thin') format('svg');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/Brandon_reg.eot');
+    src: url('../fonts/Brandon_reg.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_reg.woff2') format('woff2'),
+         url('../fonts/Brandon_reg.woff') format('woff'),
+         url('../fonts/Brandon_reg.ttf') format('truetype'),
+         url('../fonts/Brandon_reg.svg#Brandon_reg') format('svg');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/Brandon_reg_it.eot');
+    src: url('../fonts/Brandon_reg_it.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_reg_it.woff2') format('woff2'),
+         url('../fonts/Brandon_reg_it.woff') format('woff'),
+         url('../fonts/Brandon_reg_it.ttf') format('truetype'),
+         url('../fonts/Brandon_reg_it.svg#Brandon_reg_it') format('svg');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-weight: 700;
+    src: url('../fonts/Brandon_bld.eot');
+    src: url('../fonts/Brandon_bld.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_bld.woff2') format('woff2'),
+         url('../fonts/Brandon_bld.woff') format('woff'),
+         url('../fonts/Brandon_bld.ttf') format('truetype'),
+         url('../fonts/Brandon_bld.svg#Brandon_bld') format('svg');
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    font-weight: 900;
+    src: url('../fonts/Brandon_blk.eot');
+    src: url('../fonts/Brandon_blk.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_blk.woff2') format('woff2'),
+         url('../fonts/Brandon_blk.woff') format('woff'),
+         url('../fonts/Brandon_blk.ttf') format('truetype'),
+         url('../fonts/Brandon_blk.svg#Brandon_blk') format('svg');
+}

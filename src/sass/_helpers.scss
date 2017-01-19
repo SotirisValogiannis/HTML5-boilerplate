@@ -71,3 +71,9 @@
 .clearfix:after {
     clear: both;
 }
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

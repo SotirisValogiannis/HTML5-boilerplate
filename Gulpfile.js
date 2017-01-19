@@ -22,7 +22,7 @@ var paths = {
   sass : ['./src/sass/**/*.scss'],
   html : ['./src/*.{html,php}','./public/*.{html,php}'],
   images : ['src/img/*.*'],
-  spriteImages: ['src/img/sprite/*.*']
+  spriteImages: ['./src/img/sprite/*.{png,jpg,jpeg}']
 };
 
 gulp.task('sass', function () {
@@ -64,7 +64,7 @@ gulp.task('svgstore', function () {
 gulp.task('sprites', function() {
     var spriteOutput;
 
-    spriteOutput = gulp.src("./public/css/*.css")
+    spriteOutput = gulp.src("./public/css/style.css")
         .pipe(sprite({
             baseUrl:         "./src/img/sprite",
             spriteSheetName: "sprite.png",

@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug-gulp": "iron-node node_modules/gulp/bin/gulp.js"
   },
   "author": "",
   "license": "ISC",
@@ -26,18 +26,18 @@
     "gulp-livereload": "^3.8.1",
     "gulp-newer": "^1.2.0",
     "gulp-postcss": "^6.2.0",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^2.3.2",
     "gulp-sprite-generator": "^0.2.3",
     "gulp-svgmin": "^1.2.2",
     "gulp-svgstore": "^6.0.0",
-    "jquery": "^2.2.1",
+    "jquery": "^2.2.4",
     "karma": "^0.13.22",
-    "karma-chrome-launcher": "^0.2.2",
+    "karma-chrome-launcher": "^0.2.3",
     "karma-mocha": "^0.2.2",
     "karma-mocha-reporter": "^2.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "modernizr": "^3.3.1",
     "postcss-pxtorem": "^3.3.1",
     "script-loader": "^0.6.1",

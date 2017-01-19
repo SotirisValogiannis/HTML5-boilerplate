@@ -13,12 +13,12 @@
 html {
     font-size: 14px;
     line-height: 1.4;
-    color: #040407;
-    font-weight: 300;
+    color: $gray;
+    font-weight: 200;
 }
 
 html, body {
-    font-family: 'Whitney', sans-serif;
+    font-family: 'Brandon Grotesque', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

@@ -1,5 +1,5 @@
 // Avoid `console` errors in browsers that lack a console.
-export var plugins = (function() {
+(function() {
     var method;
     var noop = function () {};
     var methods = [
@@ -21,8 +21,4 @@ export var plugins = (function() {
     }
 }());
 
-
 // Place any jQuery/helper plugins in here.
-if(!!document.documentMode) {
-  document.querySelector('html').className += " is-IE";
-}
